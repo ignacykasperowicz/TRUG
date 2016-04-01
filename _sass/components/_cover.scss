@@ -7,7 +7,7 @@
 }
 
 .cover-backdrop {
-  background: rgba(0, 0, 0, .5);
+  background: rgba(0, 0, 0, .3);
   position: absolute;
   top: 0;
   bottom: 0;
@@ -19,6 +19,9 @@
   color: $color-light;
   text-align: center;
   padding: $content-padding;
+  position: relative;
+  z-index: 1;
+
 }
 
 .cover-logo-signet {
